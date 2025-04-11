@@ -4,6 +4,7 @@ import numpy as np
 from collections import OrderedDict
 import torchvision.transforms as transforms
 from PIL import Image
+import os
 
 from .schp import networks
 from .schp.utils.transforms import transform_logits, get_affine_transform
